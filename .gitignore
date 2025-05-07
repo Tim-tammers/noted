@@ -1,0 +1,23 @@
+# Ignore virtual environment
+venv/
+*.log
+
+# Ignore fine-tuned model outputs
+trocr-finetuned/
+
+# Ignore dataset files
+dataset.csv
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Ignore environment files
+.env
+.DS_Store
+.idea/
+.vscode/
